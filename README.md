@@ -20,14 +20,14 @@
 
 # Airflow
 
-### Adjust airflow variables if needed:
-    Adjust the user and password at the .env file
-
 ### Create airflow containers
     cd airflow 
     mkdir -p ./dags ./logs ./plugins ./config ./wallet
     docker compose up airflow-init 
     docker compose up -d
+
+### Adjust airflow variables if needed:
+    Adjust the user and password at the .env file
 
 
 # Spark
