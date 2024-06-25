@@ -35,7 +35,7 @@
 ### Here you can scale your cluster as needed, just edit the number at '--scale worker'
     cd spark
     mkdir -p ./data ./jobs ./logs ./ wallet
-    docker compose -f docker-compose.yml up -d --scale worker=3
+    docker compose up -d --scale worker=3
 
 
 # Utility
